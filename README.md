@@ -1,1 +1,1 @@
-##View at <a href="squirre1man.github.com/sike-react-buyshoes">Here</a>
+##View at <a href="http://squirre1man.github.io/sike-react-buyshoes">Here</a>
