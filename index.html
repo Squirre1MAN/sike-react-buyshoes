@@ -26,6 +26,7 @@
 <body>
 
   <div class="site">
+    <div class="site__overlay-background"> </div>
     <!-- 70% main area -->
     <div class="site__main">
 
@@ -218,8 +219,10 @@
 
     <!-- 30% sidebar -->
     <div class="site__right-sidebar">
-      <h3 class="cart__title">Shopping Cart</h3>
       <div class="cart">
+
+        <h3 class="cart__title">Shopping Cart (2)</h3>
+
         <div class="cart__content">
 
           <div class="cart-item">
@@ -462,8 +465,9 @@
 
           </div> <!-- cart-item -->
 
-      </div>
-      </div>
+        </div>
+        <div class="cart__overlay--cart"> </div>
+    </div> <!-- cart -->
       <div class="checkout">
 
         <hr class="checkout__divider"/>
@@ -495,7 +499,7 @@
         </div>
 
       <div class="checkout__amount--button__area">
-        <div class="checkout__amount--button" href="">
+        <div class="checkout__amount--button" href="#">
           <img class="checkout__amount--button--icon" src="img/cart-icon.svg"/>
           <div class="checkout__amount--button--text">
             Checkout
@@ -506,7 +510,13 @@
       </div> <!-- checkout__amount -->
 
       </div>
+
+      <a class="site__right-sidebar-toggle">
+        <img src="img/arrow-icon.svg"/>
+      </a>
+
     </div> <!-- site__right-sidebar -->
+
   </div> <!-- site -->
 </body>
 </html>
