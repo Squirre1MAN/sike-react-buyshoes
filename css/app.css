@@ -65,7 +65,7 @@ a {
 .site{
   display: flex;
   flex-direction: row;
-  background-image: url("/img/bg.jpg") ;
+  background-image: url("img/bg.jpg") ;
   background-size: cover;
 }
 
